@@ -1,0 +1,15 @@
+
+name: myflow
+
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: greetings
+        run: echo "good morning"
+
+      - name: good bye
+        run: echo "good bye"
